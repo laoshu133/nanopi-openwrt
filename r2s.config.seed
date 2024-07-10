@@ -14,23 +14,27 @@ CONFIG_DOCKER_OPTIONAL_FEATURES=y
 CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-cpufreq=y
 
-# passwall
+# GFW Base
 CONFIG_PACKAGE_hysteria=y
 CONFIG_PACKAGE_sing-box=y
 CONFIG_PACKAGE_xray-core=y
 CONFIG_PACKAGE_xray-plugin=y
 CONFIG_PACKAGE_chinadns-ng=y
-# CONFIG_PACKAGE_v2ray-geoip=y
-# CONFIG_PACKAGE_v2ray-plugin=y
-# CONFIG_PACKAGE_v2ray-geosite=y
+CONFIG_PACKAGE_v2ray-geoip=y
+CONFIG_PACKAGE_v2ray-plugin=y
+CONFIG_PACKAGE_v2ray-geosite=y
+CONFIG_PACKAGE_simple-obfs-client=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-server=y
-CONFIG_PACKAGE_luci-app-openclash=y
+
+# GFW APPs
+# CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-passwall=y
+# CONFIG_PACKAGE_luci-app-vssr=y
 
 # CONFIG_PACKAGE_luci-app-qbittorrent=y
 CONFIG_PACKAGE_luci-app-statistics=y
